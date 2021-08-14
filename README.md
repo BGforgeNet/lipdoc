@@ -1,5 +1,5 @@
-## Interplay sound doctor
+## Lip sync doctor
 
-A wrapper around `snd2acm.exe`, writing correct headers for higher quality sounds (44.1KHz) and mono files.
+Doubles the sample rate of a lip file.
 
-Usage: `ipsdoc sound.wav sound.acm`
+Usage: `lipdoc lipsync.lip`
