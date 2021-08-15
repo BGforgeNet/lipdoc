@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
 import argparse
-import sys, os
+import os
 import re
+from sys import exit
 
 parser = argparse.ArgumentParser(description='Doubles the sample rate of a lip file', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('ifile', help='input lip file')
